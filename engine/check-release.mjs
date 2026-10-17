@@ -55,7 +55,12 @@ const faceFiles=(await readdir(path.join(dist,'portraits/faces'))).filter(name=>
 for(const name of faceFiles)await hashFile(`portraits/faces/${name}`);
 if(full_release)assert.equal(release.revision,releaseHash.digest('hex').slice(0,12),'Run npm run release after changing release assets');
 const faceManifest=JSON.parse(await readFile(path.join(dist,'portraits/faces/manifest.json'),'utf8'));
-assert.equal(faceManifest.ids.length,283,'Portrait pack must cover every populated FACES.VGA record');
+// Faces whose redrawn art showed someone else wait in redrawNeeded and use the original portrait.
+const pending=faceManifest.redrawNeeded||[];
+assert.equal(faceManifest.ids.length+pending.length,283,'Portrait pack must cover every populated FACES.VGA record');
+assert(pending.every(id=>!faceManifest.ids.includes(id)),'A face cannot be both drawn and pending');
+const appIds=JSON.parse('['+/const portraitIds=new Set\(\[([0-9,]+)\]\)/.exec(player)[1]+']');
+assert.deepEqual(appIds,faceManifest.ids,'app.js portraitIds must match the portrait manifest');
 for(const id of faceManifest.ids)assert((await stat(path.join(dist,'portraits/faces',`${id}.webp`))).size>0,`Missing portrait for face ${id}`);
 assert((await stat(path.join(dist,'portraits/faces/avatar-female.webp'))).size>0,'Missing female Avatar portrait');
 for(const shape of [57,58,59,60,61,62,63,65,66,67,68])assert((await stat(path.join(dist,'inventory',`${shape}.webp`))).size>0,`Missing high-resolution paperdoll ${shape}`);
