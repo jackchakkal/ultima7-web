@@ -1,0 +1,32 @@
+name: Translation error / Erro de tradução / Error de traducción
+description: A line, book or sign with a mistake, wrong meaning or wrong agreement.
+labels: [translation]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options: [Português do Brasil, Español]
+    validations:
+      required: true
+  - type: input
+    id: key
+    attributes:
+      label: Key (FUNCTION:index), if you know it
+      description: Keys are in translation-overrides.json (Portuguese) and translations/es-overrides.json (Spanish).
+      placeholder: "0401:12"
+  - type: textarea
+    id: text
+    attributes:
+      label: Text shown in the game
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+  - type: input
+    id: where
+    attributes:
+      label: Where it happened
+      placeholder: "Trinsic, talking to Finnigan"

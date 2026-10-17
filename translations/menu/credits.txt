@@ -1,0 +1,261 @@
+\P4
+
+\CULTIMA VII - THE BLACK GATE
+\CCRÉDITOS
+
+
+\CProdução e direção
+\CRICHARD GARRIOTT
+
+
+\CProdutor executivo
+\CDALLAS SNELL
+
+
+\CProdutor associado
+\CALAN GARDNER
+
+
+\CDireção de programação
+\CKEN DEMAREST III
+
+
+\CDireção de história e roteiro
+\CRAYMOND BENSON
+
+
+\CDireção de arte
+\CJEFF DEE
+
+
+\CDireção de áudio
+\CMARTIN GALWAY
+
+
+\CEQUIPE DE PROGRAMAÇÃO:
+
+
+\RProjecionista vodu |\LBILL BALDWIN
+
+\RProgramação vodu, |
+\RSequência inicial |\LTONY BRATTON
+
+\RMestre dos feitiços |\LPHILIP BROGDEN
+
+\RMestre dos usáveis |\LERIC BROWN
+
+\RInstalação |\LREY CASTRO
+
+\REfeitos de código |\LCHUCKLES
+
+\RLaço principal |\LKEN DEMAREST III
+
+\RGaroto-prodígio |\LJIM GREER
+
+\RServo da rede |\LWILL McBURNETT
+
+\RMestre dos gumps |\LMIKE McSHAFFRY
+
+\RDados do jogo, combate |\LPAUL MEYER
+
+\RFísica, ferramentas, |
+\Rprogramação de som |\LHERMAN MILLER
+
+\R#SCínico da programação |\L#SZACHARY SIMPSON
+
+\RCaçador de bugs |\LPHIL SULAK
+
+\RSolução de problemas |\LJOHN TAYLOR
+
+\RXamã vodu |\LJEFF WILSON
+
+\RInteligência |
+\Rartificial |\LTONY ZUROVEC
+
+\RProgramador convidado |\LCHARLES CAFRELLI
+
+\RInterpolação de gumps |\LARTHUR DiBIANCA
+
+
+\CEQUIPE DE ARTE
+
+
+\RFiguras |\LDANIEL BOURBONNAIS
+
+\RFundos, cenários |\LBOB COOK
+
+\RConstruções, animação |\LJEFF DEE
+
+\RRetratos, itens |\LKARL DOLGENER
+
+\RPirotecnia |\LCHRIS DOUGLAS
+
+\RCriaturas, figuras |\LGLEN JOHNSON
+
+\REfeitos do Guardião |\LBRUCE LEMONS
+
+\REfeitos 3-D, |
+\Rretratos |\LDENIS LOUBET
+
+\RRetratos, itens |\LMICAEL PRIEST
+
+\REfeitos do Portal Negro |\LJAKE RODGERS
+
+\RRetratos, |
+\Rilustrações |\LGARY WASHINGTON
+
+
+\CEQUIPE DE ÁUDIO
+
+
+\CMúsica composta, arranjada e regida por
+\CDANA GLOVER - "THE BEAST"
+
+
+\R"Tema de amor", de |\LRAYMOND BENSON
+\R"Chamado do fogo-fátuo", de |\LHERMAN MILLER
+\R"Pedras", de |\LDAVID WATSON
+\LKATHLEEN JONES
+\R"Taverna suspeita" e |
+\R"Canção do mar", de |\LKIRK WINTERROWD
+
+
+\CVoz do "Guardião"
+\CBILL JOHNSON
+
+
+\CGravação e tratamento de voz
+\CMARTIN GALWAY e RANDY BUCK
+
+
+\RArtista de foley |\LMARC SCHAEFGEN
+
+\RSom adicional |\LNENAD VUGRINEC
+
+
+\CASSISTENTES DE DESIGN CRIATIVO
+
+
+\RAssistência de criação |\LBRIAN ADAMS
+
+\RMasmorras e tipos |\LBRUCE ADAMS
+
+\RCoordenação |\LMICHELLE CADDEL
+
+\RCenários e paisagismo |\LSCOTT HAZLE
+
+\RSenhora multiusuário |\LMARY-MARGARET IPSER
+
+\RDecoração de interiores |\LBRIAN MARTIN
+
+\RAssistente da |
+\Rdireção |\LANA MORENO
+
+\RDeus dos mapas |\LJOHN WATSON
+
+
+\CEQUIPE DE TEXTO
+
+
+\RConversas, |
+\Rstoryboards |\LRAYMOND BENSON
+
+\RConversas, |
+\Rassuntos da Irmandade |\LJACK HERMAN
+
+\RMedievalização, |
+\Rguru do usecode |\LBETH MILLER
+
+\RConversas, |
+\Rcartão de referência |\LANDREW P. MORRIS
+
+\RSenhor dos Mortos |\LJOHN WATSON
+
+
+\CEQUIPE DE GARANTIA DE QUALIDADE
+
+
+\CGerente de serviços de desenvolvimento
+\CSHERRY CAIN
+
+\RDiretora de QA |\LKAREN E. CONROE
+
+\RSupervisor de testes |\LJEFF J. SHELTON
+
+\RLíder de projeto |\LMARK S. VITTEK
+
+
+\CTestadores
+
+\RRUSSELL BYRD |\L CHRIS L. CAIN
+\RMICHAEL CHENAULT |\L JARRETT CRIPPEN
+\RDON DEROUEN |\L TIMOTHY J. HARDY
+\RROBERT F. HILL |\L ANDREW HOFMANN
+\RJAMES L. NANCE |\L BEN POTTER
+\RSCOTT SHELTON |\L PERRY STOKES
+\CMICHAEL STURM
+
+\RApoio promocional |\LMIKE HARRISON
+
+\RAgente de viagens do U7 |\LROBIN McSHAFFRY
+
+\RBanda oficial do U7 |\LE.R. SHORTS & T.F.T.
+
+\CBufê fornecido por
+\RMr. Gatti's |\L Chinatown
+\RChuy's |\L The Salt Lick
+\REat-Out-In |\L Jason's Deli
+\CThe Emerald
+
+\RDoces |\LCHRIS ROBERTS
+
+
+\CAgradecimentos especiais a
+\CStrike Commander, Serpent Isle
+\Ce
+\CNext Frontier
+\Cpela generosa doação de
+\Ctempo, pessoal e compreensão.
+
+
+
+\CA equipe de Ultima VII também
+\Cagradece a todas as esposas, maridos,
+\Cnamoradas, namorados, famílias e
+\Ccolegas que apoiaram e sofreram
+\Cconosco durante esta produção.
+\CSem eles, jamais teríamos
+\Csobrevivido.
+
+
+
+\CNenhum animal foi ferido durante
+\Ca produção de Ultima VII
+
+
+
+\CEsta é uma obra de ficção.
+\CQualquer semelhança com pessoas vivas
+\Cou mortas é mera coincidência.
+
+\CCD da trilha sonora disponível na ORIGIN
+
+
+\CUMA PRODUÇÃO LORD BRITISH
+
+\P0
+
+\P1
+
+\P3
+
+
+
+
+
+
+
+
+
+\CDa ORIGIN SYSTEMS, INC.
+\C#2 MCMXCII

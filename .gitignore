@@ -1,0 +1,9 @@
+node_modules/
+.build/
+*.log
+.local/
+.vercel/
+.openai/
+__pycache__/
+engine/generated/
+.env*

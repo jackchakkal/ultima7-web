@@ -1,0 +1,146 @@
+\CUMA PITADA DE FRASES DA
+\CEQUIPE DE ULTIMA VII
+
+
+
+\C"Qualquer dia desses vou ter que
+\Cir pra casa... estou com sede."
+\L- TONY Z.
+
+\C"Isto funcionava... tem algo errado
+\Ccom o meu mundo."
+\L- TONY Z.
+
+\C"OK, agora tenho código... deve funcionar."
+\L- JIMBO
+
+\C"Não vamos fazer outra demo
+\Cantes do lançamento."
+\C"OK, estou engolindo minhas palavras."
+\C"Agora não vamos mesmo fazer outra demo
+\Cantes de lançar!"
+\L- RICHARD
+
+\C"Espera... a CES de janeiro não é
+\Coutra demo?"
+\L- TONY Z.
+
+\C"Assim que eu não queimar a segunda,
+\Cvai ficar ótimo!"
+\L- RICHARD
+
+\C"OK, tirem os sapatos -
+\Cvocês ganham dois casacos."
+\L- MARY-MARGARET
+
+\C"Isto é um pseudo-beta."
+\L- RICHARD
+
+\C"Com licença, Mike. Tem uma mulher
+\Ctirando fiapos dos meus dedos do pé."
+\L#S- ZACK
+
+\C"Já fiz todos os caras da equipe,
+\Cmenos o Herman."
+\L- MARY-MARGARET
+\C(totalmente fora de contexto)
+
+\C"Não lembro o que eu gostaria
+\Cde estar fazendo, então acho que
+\Cnão devia estar fazendo isso."
+\L#S- ZACK
+
+\R"Spankamiah?" |\L- TONY Z.
+
+\C"OK, é 'Spank-a-mi-ah'."
+\CRichard explicando as frases a um repórter
+
+\C"Questiono a aleatoriedade do Herman."
+\L- TONY Z.
+
+\C"Termino 'Ultima' amanhã,
+\Cdepois da minha soneca."
+\L- MAX BENSON (2 anos e meio)
+
+\C"Não jogue o livro de assembly em mim!"
+\L- TONY Z.
+
+\C"O sol nasce no leste ou no oeste?
+\CNo leste, né?"
+\L- CHRIS ROBERTS
+
+\C"Tem um mandado de prisão contra mim,
+\Ce há policiais
+\Cna sala ao lado!"
+\L- RICHARD
+
+\C"Quantos de vocês têm mandado
+\Cde prisão?"
+\L- RICHARD
+\C(25% da equipe de Ultima VII disse sim)
+
+\C"SomosFelizesERealizadosNoNossoBomEmprego,
+\CSomosFelizesERealizadosNoNossoBomEmprego,
+\CSomosFelizes..."
+\L- JASON TEMPLEMAN
+
+\C"Parece uma porcaria... pode ser o oeste do Texas."
+\L- PHILIP
+
+\C"Apago todas as luzes e mesmo assim
+\Cnão consigo reproduzir!"
+\L- TONY Z.
+\C(totalmente fora de contexto)
+
+\C"Adoro o corpo desmembrado, mas
+\Cprecisamos dar uma arrumada nele."
+\L- RICHARD
+
+\C"Eu gostaria de minimizar a desvantagem
+\Cde estar morto."
+\L- RICHARD
+
+\C"ERR_COMBAT MOJO_BOUNDS
+\Cia-ia-ô"
+\L- HERMAN
+
+\C"Alguém viu o Richard?"
+\L- Toda a equipe do U7
+
+\C"Próximo jogo."
+\L- RICHARD
+
+\C"Nunca puxo o saco
+\Cdo mesmo jeito duas vezes."
+\L- ANDREW
+
+\C"OK... o jogo não saiu no prazo.
+\CA culpa não é minha!!"
+\L- RICHARD
+
+\C"Não existe amanhã, só existe hoje."
+\L- RICHARD
+
+\C"$LBSemNoção = TRUE;"
+\L- ANÔNIMO
+\C(encontrado no usecode)
+
+\C"Cá estamos no sexto mês da nossa
+\Cúltima hora."
+\L- RICHARD
+
+\C"Outros escrevem software...
+\C...a Morte cavalga um cavalo pálido."
+\C- JOHN WATSON
+
+
+
+
+
+\CAs frases anteriores foram
+\Cuma apresentação da ORIGIN Systems, Inc.
+
+\CNão podem ser reproduzidas, eletrônica
+\Cou mecanicamente, sem o consentimento
+\Cexpresso e por escrito da
+\CORIGIN Systems, Inc.

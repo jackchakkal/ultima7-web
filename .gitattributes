@@ -1,0 +1,9 @@
+* text=auto
+*.sh text eol=lf
+*.wasm binary
+*.bin binary
+*.VGA binary
+*.FLX binary
+dist/patch/USECODE binary
+dist/patch/LINKDEP1 binary
+dist/patch/LINKDEP2 binary

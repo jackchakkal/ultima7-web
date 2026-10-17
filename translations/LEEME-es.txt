@@ -1,0 +1,318 @@
+==============================================================================
+Ultima VII: The Black Gate & The Forge of Virtue
+con BG Keyring MOD
+Traducción al castellano Final V1
+==============================================================================
+
+Creado por: L@Zar0
+Fecha V1: 02/10/2017
+Version: Final V1
+
+1. INTRODUCCIÓN
+2. INSTALACIÓN
+3. DESINSTALACIÓN
+4. VERSIONES
+5. CAMBIOS RESPECTO VERSIONES ANTERIORES
+6. OBSERVACIONES (Exult y DOS)
+7. BG KEYRING MOD
+8. AGRADECIMIENTOS
+9. LICENCIA
+
+
+1. INTRODUCCIÓN
+
+Después de sacar la versión Final V2 de la Isla de la Serpiente, la
+segunda parte de Ultima VII: The Black Gate, he tomado la decisión de
+aplicar los mismo cambios textuales y mejoras que hice en esta primera
+parte para que ambos juegos queden con una estructura del lenguaje
+similar.
+
+Así pues, aquí está la Re-traducción, o una traducción COMPLETA basada
+en los textos originales de la versión inglesa, de los textos, libros,
+cambios en algunos gráficos de Ultima VII: The Black Gate & The Forge
+of Virtue. Y eso sin menospreciar la edición elaborada por el grupo de
+Dantoine, que ya sacaron una traducción con la expansión The Forge of
+Virtue en castellano y tuve el honor de probarla.
+
+En esta versión, se ha añadido el MOD (traducido al castellano):
+- BG Keyring MOD 0.11.26
+
+Además, se ha testeado la versión DOS por completo, hasta el final,
+así como la edición Exult para comprobar su correcto funcionamiento.
+
+Nada más, probadla y que la disfrutéis. Si veis que hay algún error
+(que aunque la he testeado al completo, concienzudamente en Exult,
+y DOS, siempre puede surgir algo), podéis buscarme como L@Zar0 en 
+www.clandlan.net.
+
+
+2. INSTALACIÓN
+
+Para instalar la traducción al castellano de Ultima VII: The Black Gate &
+The Forge of Virtue, es necesario disponer de la versión original en inglés
+con la expansión (The Forge of Virtue) incluida, sino, no funcionará.
+
+También es necesario tener Exult a la versión 1.5.0svn como mínimo, sobre
+todo si se quiere ejecutar el MOD: BG Keyring MOD 0.11.26.
+
+Se instala corriendo el ejecutable.
+
+Si se instala la versión de Exult, por ahora en la versión 1.5.0git se usa
+el archivo "exultmsg.txt", con las frases de la Introducción y del Final
+del juego, y se encuentra en el directorio "patch", en el caso de jugar
+el juego sin el Keyring MOD, y en el directorio "data" del Keyring MOD si
+se juega con este (y se llama textmsg.txt).
+
+NOTA: EXISTE LA POSIBILIDAD DE QUE EN UN FUTURO ESTE ARCHIVO DEBA COLOCARSE
+EN OTRO LUGAR O INCLUSO CAMBIE LA NUMERACIÓN DE LAS LINEAS POR EL FORMATO
+QUE SIGA EL CÓDIGO DE EXULT.
+
+NOTA 2: Este archivo también debería funcionar para Serpent Isle.
+Es probable que en el que incluí en la traducción Final V2 ya no funcione
+como debería y habría que actualizarlo.
+
+Este archivo se puede encontrar en el directorio donde se haya instalado
+la Traducción Final V1 para Exult también.
+
+
+3. DESINSTALACIÓN
+
+Se puede realizar la desinstalación desde el Panel de Control, pero esto
+provocará que se eliminen archivos críticos de la versión en inglés.
+Es necesario reinstalar el juego en inglés si se quiere disfrutar en su
+formato original.
+
+
+4. VERSIONES
+
+El ejecutable incluye dos versiones. Una versión para Exult y una versión
+para DOS.
+
+La versión Exult se ha probado por completo, a una resolución in-game de
+800x600 y SCALEx2, y no se han detectado problemas (a no ser que sean del
+propio Exult).
+
+La versión DOS mantiene su resolución de 320x200, y se ha intentado que
+los diálogos y textos queden encajados visualmente. Se ha probado bajo
+DOSBox y no se han apreciado errores de ejecución.
+
+En la traducción Final V1 de Ultima VII: BG + FV, tanto la versión DOS
+como la versión Exult, son idénticas en textos y diálogos. Solo cambian
+los caracteres usados como sustitución para poder verse signos de
+admiración, interrogación, acentos, 'ñ's, diéresis... en ambas versiones.
+
+A nivel textual, es posible apreciar palabras como "amigo" o "compañero"
+tanto para personajes masculinos como femeninos. Como ya indiqué en la
+traducción de U7: Serpent Isle, si miramos los textos desde el punto de
+vista y tratamiento de "el Avatar", no debería haber problema. ;)
+
+<<SOLO PARA EXULT>>
+Se ha incorporado a la traducción Final V1, la versión 0.11.26 del mod
+BG Keyring MOD, que se instala por defecto con la traducción para la versión
+de Exult. Para jugar con este mod, es necesario iniciar la partida
+en Exult, con la opción "SHOW MODS" -> "BLACK GATE - KEYRING (LLAVERO)".
+Se puede jugar sin el BG Keyring MOD, si seleccionamos directamente la partida
+con la opción "ULTIMA VII: THE BLACK GATE" (sin entrar en "SHOW MODS").
+Los SAVEGAMES, por eso, NO SIRVEN entre ambos casos (y mucho menos compatibilidad
+con la version DOS).
+
+
+5. CAMBIOS RESPECTO VERSIONES ANTERIORES
+
+- RESPECTO LA VERSION ORIGINAL
+==============================
+* Se han retraducido por completo partiendo del inglés todos los diálogos, textos, libros, etc...
+  Los textos en Exult son los mismos, pero debido a dicho motor, es posible que visualmente queden
+  con un aspecto diferente.
+* Se ha usado el tratamiento de "usía", como en Serpent Isle.
+* Se han corregido faltas ortográficas y de sintaxis de forma genérica si existían. Se han añadido
+  los signos de puntuación como acentos, ñ, interrogante y admiración inicial de los cuales carecía
+  la traducción original.
+* Se han homogeneizado términos multigénero (para femenino/masculino por igual) si cabía con
+  excepciones.
+* Se han cambiado algunos nombres de NPCs (acentos, Hook -> Garfio, etc..).
+* Es posible que algunas voces no correspondan con la nomenclatura de los objetos.
+* Se han revisado las fuentes de caracteres (FONTS.VGA) para mejor visualización en las versiones
+  DOS y Exult. Prácticamente se han usado los mismos que los de Serpent Isle.
+* Se han revisado las fuentes de caracteres (MAINSHP.FLX, ENDGAME.FLX) para mejor visualización en
+  las versiones DOS y Exult de las cinemáticas.
+* Se han revisado los carteles (runas de Britannia) de diferentes ubicaciones para la versión DOS.
+* Se han hecho "más largos" los carteles de madera y dorados donde se escriben dichas runas
+  GUMPS.VGA), así caben palabras más largas como "Ayuntamiento" entre otros. Es posible que
+  la versión Exult queden un pelín desplazados por su código.
+* Se ha modificado los paneles (GUMPS.VGA):
+  - Paneles de los NPCs que indican sus parámetros.
+  - Los paneles que visualizan el inventario de los personajes decían "Llevando Piedras" y ahora
+    dice "Carga Total"
+  - Carteles de salir al DOS, grabar y cargar partida, para que queden mejor estéticamente.
+    Se han adecuado a la Fuente de caracteres original inglesa. Cambios de algunos textos:
+      # Strategy -> Estrategia -> Tácticas
+      # Mana     -> Mana       -> Maná
+      # Hits     -> Golpes     -> Vida
+      # Protect  -> Protección -> Proteger
+      # Training -> Práctica   -> Entrenar
+* Se han modificado algunos "botones" (MAINSHP.FLX):
+  - "VER INTRODUCCION" -> "VER INTRODUCCIÓN"
+  - "VER CREDITOS" -> "VER CRÉDITOS"
+  - "RETORNAR AL MENU" -> "VOLVER AL MENÚ"
+  - "HOMB" -> "HOMBRE"
+* Se han modificado los hechizos (nombres en pergaminos, gráficos y textos en diálogos) para que
+  correspondan y sean homogéneos con sus sucesores (o traducciones predecesoras xd),
+  Ultima VII: SI+SS y Ultima IX.
+* Se ha adaptado la fuente de los "CRÉDITOS" y de los "COMENTARIOS", también se han arreglado
+  dichos textos (MAINSHP.FLX).
+
+
+6. OBSERVACIONES (Exult y DOS)
+
+<< Ambas versiones >>
+- Las placas/carteles con runas de Britannia, no tienen signos de puntuación debido
+  al motor y las limitaciones que ofrecen tanto la versión DOS como la de Exult (en el
+  momento de la versión V1 -> es la build 1.5.0svn), para poder hacerlos visibles.
+
+- Aunque se ha intentado cuidar el aspecto del género y hacerlo más genérico, es posible
+  que aún haya algún diálogo muy concreto que trate al Avatar como masculino. No obstante,
+  si se observan los diálogos desde el punto de vista del "Avatar", quizás tenga más
+  sentido su "masculinidad". ;)
+
+- En las situaciones donde compramos algún artículo (principalmente alimentos) en determinadas
+  ocasiones, cuando vale "1" moneda de oro lo que compramos (la situaciones se pueden contar
+  con las manos), aparecerá "1 moneda(s) de oro". Esto es debido al código, donde no me permite
+  en este caso singularizar o pluralizar la palabra "moneda".
+
+<< versión Exult >>
+- Sólo debería usarse la traducción de Exult bajo la versión 1.5.0git de Exult o superior.
+  No lo he probado, pero es de esperar que la versión DOS funcione con la versión 1.2
+  de Exult. El MOD BG Keyring es OBLIGATORIO usarlo bajo la versión 1.5.0git de Exult.
+
+
+7. BG KEYRING MOD
+La versión de este mod es SOLO PARA EXULT v1.5.0git o superior, según el Readme.txt
+original en inglés (traducida una parte, se incluye el Readme original).
+
+Este MOD está en constante actualización para solucionar los posibles errores que puedan parecer.
+Si se descarga una nueva versión, estará en INGLÉS. Habría que descargar el código fuente y
+volverla a compilar habiendo traducido los textos.
+
+Los cambios que ofrece este MOD respecto su versión original son los siguientes (traducción del
+inglés original):
+
+ Este mod se inició añadiendo un llavero a Black Gate. Tiene dos nuevos NPCs, varios
+ objetos nuevos y gráficos que incluyen lo siguiente:
+
+   - Ahora se puede meditar en los Santuarios de la Virtudes.
+   - Ahora se puede ver el Códice; aunque el Avatar tiene que hacer una gesta sagrada.
+   - El Santuario del Códice se ha rehecho completamente, y se basa en la imagen del
+     website Mysterious Sosaria.
+   - Se han añadido los tres objetos de los Principios (el Libro de la Verdad,
+     la Vela del Amor y la Campana del Coraje), así como las Llamas de los Principios.
+   - Limpieza del Lago Lock: Una vez Miranda tenga el proyecto de ley firmado, la basura
+     del Lago se irá limpiando gradualmente 
+   - El Santuario de la Espiritualidad es nuevo y hay un sótano en el Fuerte de la Serpiente
+     donde se encuentra la Llama del Coraje. Se ha usado un nuevo mapa, que a su vez usa la
+     funcionalidad multi-mapa de Exult.
+   - Se ha mejorado el Orbe de las Lunas, y también permite visitar los santuarios.
+   - Los posaderos pedirán las llaves cuando se marche el Avatar. También cerrarán las puertas
+     y harán las camas.
+   - Hay un sistema rudimentario nuevo que permite a los NPCs lanzar hechizos. Cada NPC tiene
+     su objeto específico para lanzarlos y usa maná y reactivos. También hay algún que otro
+     hechizo exclusivo para los NPCs (Resucitar General y Restauración General, creo).
+   - Hay el mod "Interacciones" de Alun Bestor; se pueden hacer pasteles, forjar espadas,
+     ordeñar las vacas y esquilar ovejas.
+   - Hay el mod "Avatar Pack" con unos nuevos retratos para vuestro Avatar.
+   - ¡Ahora los NPCs también pueden lanzar hechizos!
+   - Ahora Lord British tiene sus "Joyas de la Corona", según la versión de Ultima V.
+     No hacen todo lo que deberían, pero ya están balanceadas y es que conseguís haceros
+     con ellas.
+   - Se ha añadido una alfombra voladora "portátil", que se puede enrollar y pueden
+     transportarla los NPCs. Reemplaza a la original con otro gráfico.
+
+  7.1	Spoilers
+  --------------
+   Si no te puede resistir, pues bueno, aquí los tienes.
+   Proceded con suma cautela.
+
+   Spoilers del Llavero
+   --------------------
+   - La Gesta la inicia Zauriel. Lo encontraréis justo en las afueras del Castillo de
+     Lord British. No tiene pérdida. :-)
+   - Podéis salir de muchos diálogos de una forma que no tenga repercusiones.
+   - Tenéis que ser muy poderoso para sobrevivir la gesta.
+   - Intentad llevar a Laurianna con Zauriel sin darle antes la roca negra.
+     Después hablad con Zauriel.
+   - Laurianna os dará el Llavero. Solo lo hará *después* de que le deis el diario
+     de Zauriel.
+   - Usad el Llavero en el Avatar para añadir todas las llaves del grupo en él.
+
+    Santuarios de las Virtudes
+    --------------------------
+    - El Santuario del Sacrificio (Vesper) se encuentra inicialmente profanada; la podéis
+      restaurar con la Palabra de Poder adecuada.
+    - Antes de limpiar el Santuario del Sacrificio, encontrad el "Libro de los Mantras
+      Olvidados" y llevadlo encima.
+    - Después de meditar la cantidad de veces (ciclos) adecuada y con el mantra adecuado
+      cada santuario os dará una gesta para ver el Códice de la Sabiduría Definitiva.
+      Esto os permitirá pasar por los guardianes.
+    - Después de viajar por siete santuarios, y si no tenéis acceso al Santuario de la
+      Espiritualidad, podéis sintonizar la Piedra de la Virtud blanca con el Santuario
+      del Códice. Aseguraos de tener una salida, ¡sino os quedaréis atrapados!
+    - Si volvéis al Santuario después de ver el Códice obtendréis una recompensa.
+
+    Santuario del Códice
+    --------------------
+    - Solo podéis entrar si estáis en una gesta sagrada.
+    - Deberéis tener las dos lentes para ver el Códice. Podéis hacer doble-click del ratón
+      para girar las lentes.
+    - Aseguraos de llevar las lentes cuando os marchéis, sino, se pueden quedar dentro del
+      santuario ¡si finalmente ya no podéis entrar más!
+    - Devolver los Objetos de los Principios a sus lugares adecuados siempre es lo más
+      correcto por hacer.
+    - Intentad teletransportaros dentro del Santuario y ver el Códice cuando NO estéis en
+      una gesta para verlo.
+
+    Orbe de las Lunas mejorado
+    --------------------------
+    - Ahora también os podéis teletransportar a los Santuarios, haced doble-click en el orbe
+      y pulsad en uno de estos destinos del Orbe:  
+		Honestidad                     Compasión                  Valor
+
+		                Moonglow        Britain         Jhelom
+
+		Humildad      Nueva Magincia    (Avatar)        Yew       Justicia
+
+		                Skara Brae      Trinsic         Minoc
+
+		Espiritualidad                  Honor                     Sacrificio
+
+     Limpieza del Lago Lock
+     ----------------------
+     - Al final, la llave de Mack la tendrá Lord Heather. Pedídsela a él
+
+La versión usada, traducida y compilada se basa en la v0.11.26 de la original.
+Incluyo los fuentes traducidos por si se quiere actualizar y compilar. Además que
+LO EXIGE LA PROPIA LICENCIA DE EXULT.
+
+
+8. AGRADECIMIENTOS
+
+Agradecimientos a los autores del juego, Origin y a todos los que hicieron posible
+esta distribución en castellano (aunque fuera sin The Forge of Virtue).
+
+En especial agradecer a ClanDLAN.net por dejarme colgar la traducción en su web.
+
+También quiero agradecer a la gente del equipo Exult y a otros usuarios del foro
+por responder mis dudas (sobre todo para el tema de las fuentes con signos de
+puntuación).
+
+
+9. LICENCIA
+
+Esta traducción y todos los archivos que la componen se encuentran bajo licencia
+GPL (General Public License) v3.0.
+
+Esta traducción es de libre distribución y no se tiene que cobrar por ella.
+Para cualquier duda contactar conmigo, ya he puesto cómo en el
+punto 1, Introducción.
+
+El autor no se hace responsable en ningún caso del perjuicio que pueda ocasionar
+el uso de este software y queda libre de cualquier responsabilidad.

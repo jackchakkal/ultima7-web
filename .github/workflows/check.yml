@@ -1,0 +1,26 @@
+name: check
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci --omit=dev --ignore-scripts
+      - run: npm run check
+      - run: npm audit --omit=dev
+      - name: No game data or build output
+        run: |
+          if git ls-files | grep -Ei '\.(vga|flx|shp|dat|u7|bin|wasm|ogg|wav|xmi|exe|zip)$|(^|/)(usecode|linkdep[12]|u7map|u7chunks)$|^dist/(game-data|patch|audio|engine)/'; then
+            echo "Original game data or build output must not be committed."; exit 1
+          fi

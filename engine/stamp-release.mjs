@@ -1,0 +1,18 @@
+import {readFile,writeFile,readdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const root=new URL('../',import.meta.url),read=p=>readFile(new URL(p,root));
+const pkg=JSON.parse(await read('package.json'));
+const hash=createHash('sha256');
+const hashFile=async file=>{let data=await read(file);if(/\.(?:js|css|json)$/i.test(file))data=Buffer.from(data.toString('utf8').replace(/\r\n/g,'\n'));hash.update(data);};
+for(const file of ['dist/app.js','dist/reader.js','dist/style.css','dist/locales.js','dist/game-menu.js','dist/cutscenes.js','dist/inventory.js','dist/saves.js','dist/languages.js','dist/portraits.js','dist/portraits/regions.json','dist/engine/ultima7.js','dist/engine/ultima7.wasm','dist/portraits/iolo.webp','dist/portraits/apollonia.webp','dist/portraits/finnigan.webp','dist/patch/GUMPS.VGA','dist/patch/es/GUMPS.VGA','dist/patch/en/GUMPS.VGA','dist/inventory/panels.json'])await hashFile(file);
+for(const name of (await readdir(new URL('dist/inventory/',root))).filter(name=>name.endsWith('.webp')).sort())await hashFile(`dist/inventory/${name}`);
+for(const name of (await readdir(new URL('dist/inventory/icons/',root))).filter(name=>name.endsWith('.webp')).sort())await hashFile(`dist/inventory/icons/${name}`);
+for(const name of (await readdir(new URL('dist/inventory/icons/',root))).filter(name=>name.endsWith('.webp')).sort())await hashFile(`dist/inventory/icons/${name}`);
+for(const name of (await readdir(new URL('dist/portraits/faces/',root))).filter(name=>name.endsWith('.webp')||name==='manifest.json').sort())await hashFile(`dist/portraits/faces/${name}`);
+const revision=hash.digest('hex').slice(0,12),release={version:pkg.version,revision,updatedAt:new Date().toISOString()};
+let html=(await read('dist/index.html')).toString();
+html=html.replace(/(<span id="release-badge"[^>]*>)[^<]+/,`$1v${pkg.version} · ${revision.slice(0,7)} · ${new Intl.DateTimeFormat('pt-BR',{timeZone:'America/Sao_Paulo'}).format(new Date(release.updatedAt))}`);
+html=html.replace(/(href="style.css|src="engine\/ultima7.js|src="app.js)(?:\?v=[^" ]+)?"/g,`$1?v=${revision}"`);
+await writeFile(new URL('dist/index.html',root),html);
+await writeFile(new URL('dist/release.json',root),JSON.stringify(release,null,2)+'\n');
+console.log(`Release ${pkg.version} / ${revision}`);

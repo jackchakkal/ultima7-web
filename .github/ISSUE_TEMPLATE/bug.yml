@@ -1,0 +1,29 @@
+name: Game problem / Problema no jogo / Problema en el juego
+description: Something does not work (picture, sound, saving, controls, performance).
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+  - type: input
+    id: version
+    attributes:
+      label: Version shown on the page
+      placeholder: "v0.9.0-alpha · 1a2b3c4"
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: "Chrome 140 on Android"
+  - type: dropdown
+    id: language
+    attributes:
+      label: Game language
+      options: [English, Português do Brasil, Español]
