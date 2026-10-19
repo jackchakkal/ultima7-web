@@ -3,7 +3,7 @@ import {t,language} from './locales.js';
 // plus the page's backups (file and recovery code, wired by app.js).
 export function createGameMenu({getEngine,onQuit,onSaved}){
  const $=selector=>document.querySelector(selector),panel=$('#game-menu');
- let state,selected=0,busy=false,lastAction=0,confirmAction;
+ let state,selected=0,busy=false,lastAction=0,confirmAction,mode='save';
  const metaKey=`u7-save-dates-${language}`;
  let dates={};try{dates=JSON.parse(localStorage.getItem(metaKey)||'{}');}catch{}
  function setBusy(value){busy=value;for(const item of panel.querySelectorAll('.save-list-section button,.save-editor button,.save-editor input'))item.disabled=value;if(!value)updateSelection();}
@@ -29,7 +29,7 @@ export function createGameMenu({getEngine,onQuit,onSaved}){
  function select(index){selected=index;$('#save-title').value=state.slots[index]?.title||'';$('#menu-status').textContent='';$('#menu-confirm').hidden=true;updateSelection();}
  function ask(message,action){$('#menu-confirm p').textContent=message;$('#menu-confirm').hidden=false;confirmAction=action;$('#menu-confirm-yes').focus();}
  function render(next){
-  if(!next){state=null;busy=false;if(panel.open)panel.close();return;}
+  if(!next){state=null;busy=false;mode='save';if(panel.open)panel.close();return;}
   const first=!state;state=next;
   if(lastAction===2){dates[selected]=new Date().toISOString();localStorage.setItem(metaKey,JSON.stringify(dates));}
   $('#save-slots').replaceChildren();
@@ -40,10 +40,17 @@ export function createGameMenu({getEngine,onQuit,onSaved}){
    const date=document.createElement('small');date.textContent=slot.title?(dates[slot.index]?new Intl.DateTimeFormat(language,{dateStyle:'short',timeStyle:'short'}).format(new Date(dates[slot.index])):t('savedSlot')):'—';
    details.append(name,date);button.append(number,details);button.onclick=()=>select(slot.index);$('#save-slots').append(button);
   }
-  if(first){selected=state.slots.find(x=>!x.title)?.index??0;select(selected);}
+  if(first){
+   // Opened to load: the most recently saved game; to save: the first free slot.
+   const saved=state.slots.filter(x=>x.title),latest=saved.sort((a,b)=>String(dates[b.index]||'').localeCompare(String(dates[a.index]||'')))[0];
+   selected=mode==='load'&&latest?latest.index:state.slots.find(x=>!x.title)?.index??0;select(selected);
+   const loading=mode==='load';
+   $('#game-menu-title').textContent=t(loading?'loadGameMenu':'adventure');$('#game-menu .menu-intro').textContent=t(loading?'loadIntro':'saveIntro');
+   $('#menu-load').classList.toggle('primary',loading);$('#menu-save').classList.toggle('primary',!loading);
+  }
   $('#menu-confirm').hidden=true;setBusy(false);
   if(lastAction===2){$('#menu-status').textContent=t('saved');onSaved?.();}lastAction=0;
-  if(!panel.open)panel.showModal();
+  if(!panel.open){panel.showModal();if(first&&mode==='load'&&!$('#menu-load').disabled)$('#menu-load').focus();}
  }
  $('#menu-save').onclick=()=>{if(!$('#save-title').value.trim()){$('#menu-status').textContent=t('needName');$('#save-title').focus();return;}if(state.slots[selected]?.title)ask(t('overwrite'),()=>command(2));else command(2);};
  $('#menu-load').onclick=()=>ask(t('restore'),()=>command(3));
@@ -52,5 +59,5 @@ export function createGameMenu({getEngine,onQuit,onSaved}){
  $('#menu-confirm-no').onclick=()=>{$('#menu-confirm').hidden=true;$('#menu-save').focus();};
  $('#close-game-menu').onclick=$('#menu-resume').onclick=()=>command(1);
  panel.oncancel=event=>{event.preventDefault();command(1);};
- return {render};
+ return {render,mode:value=>{mode=value;}};
 }

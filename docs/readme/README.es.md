@@ -79,6 +79,7 @@ Valores por defecto: música de JD Harding, efectos SoundBlaster, volumen al 60 
 | Mover un objeto | Arrastra | Arrastra |
 | Inventario | `I` | Botón Inventario |
 | Menú de guardar | `S` | Botón Guardar |
+| Cargar partida guardada | Botón Cargar | Botón Cargar |
 
 Las respuestas y **Continuar** son botones en el panel de lectura. En **Lectura** eliges la posición de los diálogos, la fuente, el tamaño y el contraste. **Conversaciones** muestra el historial de esta sesión.
 

@@ -79,6 +79,7 @@ Padrões: música de JD Harding, efeitos SoundBlaster, volume em 60%, filtro Poi
 | Mover um item | Arraste | Arraste |
 | Inventário | `I` | Botão Inventário |
 | Menu de salvar | `S` | Botão Salvar |
+| Carregar partida salva | Botão Carregar | Botão Carregar |
 
 As respostas e o **Continuar** são botões no painel de leitura. Em **Leitura** você escolhe a posição dos diálogos, a fonte, o tamanho e o contraste. **Conversas** mostra o histórico desta sessão.
 

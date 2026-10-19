@@ -79,6 +79,7 @@ Defaults: JD Harding music, SoundBlaster effects, 60% volume, Point scaler at 8:
 | Move an item | Drag | Drag |
 | Inventory | `I` | Inventory button |
 | Save menu | `S` | Save button |
+| Load a saved game | Load button | Load button |
 
 Answers and **Continue** are buttons in the reading panel. **Reading** sets dialogue position, font, size and contrast; **Conversations** shows this session's history.
 

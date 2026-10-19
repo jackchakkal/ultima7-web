@@ -4,12 +4,12 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#101a19">
   <title>Ultima VII · Edição brasileira para navegador</title>
-  <link rel="stylesheet" href="style.css?v=21d92ccb1523">
+  <link rel="stylesheet" href="style.css?v=1a8e2ec9a4f2">
 </head>
 <body>
   <header class="masthead">
     <a class="wordmark" href="./" aria-label="Ultima VII, início"><span class="rune">✦</span> ULTIMA <span>VII</span></a>
-    <span id="release-badge" class="release-badge">v0.9.1-alpha · 21d92cc · 17/10/2026</span><div class="edition">THE BLACK GATE <span>EDIÇÃO BRASILEIRA</span></div>
+    <span id="release-badge" class="release-badge">v0.9.1-alpha · 1a8e2ec · 18/10/2026</span><div class="edition">THE BLACK GATE <span>EDIÇÃO BRASILEIRA</span></div>
     <label class="language-picker"><span class="sr-only" data-i18n="language">Idioma</span><select id="language" aria-label="Idioma"><option value="pt-BR">Português do Brasil</option></select></label>
     <button class="icon-button" id="open-settings" title="Configurações do jogo"><span aria-hidden="true">Aa</span><span class="button-label">Configurações</span></button>
   </header>
@@ -26,7 +26,7 @@
       <p class="scope">Campanha inteira traduzida, com o tom arcaico do original. Tradução em revisão: relate frases estranhas.</p>
     </section>
     <section id="player" hidden>
-      <div class="game-toolbar"><div><span class="live-dot"></span><span id="place-label">BRITANNIA</span></div><nav aria-label="Controles"><button id="inventory" title="Inventário (I)">Inventário</button><button id="save-game" title="Menu de salvar do jogo">Salvar</button><button id="player-settings" data-i18n="settings">Configurações</button><button id="journal">Conversas</button><button id="fullscreen" title="Tela cheia">⛶ <span>Tela cheia</span></button></nav></div>
+      <div class="game-toolbar"><div><span class="live-dot"></span><span id="place-label">BRITANNIA</span></div><nav aria-label="Controles"><button id="inventory" title="Inventário (I)">Inventário</button><button id="save-game" title="Menu de salvar do jogo">Salvar</button><button id="load-saved" title="Carregar partida salva">Carregar</button><button id="player-settings" data-i18n="settings">Configurações</button><button id="journal">Conversas</button><button id="fullscreen" title="Tela cheia">⛶ <span>Tela cheia</span></button></nav></div>
       <div class="stage" id="stage"><div class="canvas-wrap"><canvas id="game" width="320" height="200" tabindex="0" aria-label="Ultima VII. Botão direito para andar, clique duplo para interagir."></canvas><aside id="sign-reading" hidden aria-live="polite"><h3>Transcrição das runas</h3><p></p><small>Clique na placa para fechar</small></aside><div id="target-prompt" hidden><span>Selecione quem receberá o item ou o alvo da ação.</span><button id="cancel-target">Cancelar (Esc)</button></div><div id="world-labels" aria-live="off"></div><div id="item-caption" class="world-label item-caption" role="status" hidden></div></div><div id="engine-error" class="error-overlay" hidden><strong>A viagem foi interrompida</strong><p></p><button id="reload-game" type="button">Reabrir o jogo</button></div></div>
       <section id="dialogue" class="dialogue" hidden aria-label="Diálogo">
         <div class="speaker-portrait"><img id="portrait" alt="" hidden><span id="portrait-fallback">✦</span></div>
@@ -76,6 +76,6 @@
   </dialog>
   <input type="file" id="save-input" accept=".u7save,application/json,.json,application/gzip" hidden>
   <div id="toast" class="toast" role="status" hidden></div>
-  <script src="engine/ultima7.js?v=21d92ccb1523"></script><script type="module" src="app.js?v=21d92ccb1523"></script>
+  <script src="engine/ultima7.js?v=1a8e2ec9a4f2"></script><script type="module" src="app.js?v=1a8e2ec9a4f2"></script>
 </body>
 </html>
